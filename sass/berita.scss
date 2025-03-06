@@ -21,6 +21,9 @@
             width: 30%;
             display: inline-block;
             height: auto;
+            @media screen and (max-width: 768px) {
+                width: 45%;
+            }
             img {
                 width: 100%;
                 height: 100%;
