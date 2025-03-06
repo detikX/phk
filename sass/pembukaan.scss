@@ -1,5 +1,9 @@
 .pembukaan {
     padding: 32px 0 0;
+    @media screen and (max-width: 768px) {
+        min-height: auto;
+        padding: 32px 0;
+    }
     .employeex {
         .image {
             width: 100%;
