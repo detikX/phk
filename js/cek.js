@@ -115,6 +115,9 @@ gsap.to(".clusterBurrowing", {
 
 
 /* --- Split the text, Great Horned Owl --- */
+gsap.registerPlugin(SplitText)
+
+
 var tlSplitGreat = gsap.timeline({ onComplete: () => { SplitGreat.revert() } }),
     SplitGreat = new SplitText(".titleGreathorned", { type: "words,chars" }),
     chars = SplitGreat.chars;

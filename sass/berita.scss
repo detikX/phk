@@ -2,7 +2,136 @@
     position: relative;
     z-index: 0;
     font-size: 10vmin;
+    .perusahaan {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        z-index: 6;
+        background: rgba(#e6e6e6, 0.8);
+        text-align: center;
+        .kotak {
+            width: 30%;
+            display: inline-block;
+            height: auto;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+    }
+
+    .panel {
+        min-height: 100vh;
+        padding-left: 0.6rem;
+        position: relative;
+        padding-right: 0.6rem;
+        // display: flex;
+        // align-items: center;
+        // justify-content: center;
+        .image {
+            width: 100%;
+            height: auto;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+    }
+
+    .panel.gray {
+        background-color: #777;
+        background-image: var(--gradient-macha);
+    }
+    // #8fb7b6
+    .panel.blue {
+        // background-color: #2c7ad2;
+        background-color: #8fb7b6;
+        background-image: var(--gradient-summer-fair);
+    }
+    .panel.orange {
+        background-color: #e77614;
+        background-image: var(--gradient-orange-crush);
+    }
+
+    .panel.red {
+        background-color: #c82736;
+        background-image: var(--gradient-lipstick);
+    }
+
+    .panel.purple {
+        background-color: #8d3dae;
+        background-image: var(--gradient-purple-haze);
+    }
+    .panel.green {
+        background-color: #28a92b;
+        background-image: var(--gradient-macha);
+    }
+
+    .panel.simple {
+        background-image: none !important;
+    }
+
+    /* SCROLL DOWN */
+    .scroll-down {
+        position: absolute;
+        bottom: 30px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        color: black;
+        font-weight: 400;
+        text-transform: uppercase;
+        font-size: 16px;
+        overflow: visible;
+    }
+    .scroll-down .arrow {
+        position: relative;
+        top: -4px;
+        margin: 0 auto;
+        width: 20px;
+        height: 20px;
+        background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj4KPHBhdGggZmlsbD0iYmxhY2siIGQ9Ik00ODMuMiwxOTIuMmMtMjAuNS0yMC41LTUzLjUtMjAuOC03My43LTAuNkwyNTcsMzQ0LjFMMTA0LjUsMTkxLjZjLTIwLjItMjAuMi01My4yLTE5LjktNzMuNywwLjYKCWMtMjAuNSwyMC41LTIwLjgsNTMuNS0wLjYsNzMuN2wxOTAsMTkwYzEwLjEsMTAuMSwyMy40LDE1LjEsMzYuOCwxNWMxMy4zLDAuMSwyNi43LTQuOSwzNi44LTE1bDE5MC0xOTAKCUM1MDMuOSwyNDUuNyw1MDMuNywyMTIuNyw0ODMuMiwxOTIuMnoiLz4KPC9zdmc+);
+        background-size: contain;
+    }
+
+    /* h1, h2, p, li {
+        max-width: 800px;
+      breaking stuff
+      }
+       */
+    .panel p strong,
+    .panel li strong {
+        color: white;
+        font-weight: 400;
+    }
+    .panel p code,
+    .panel li code {
+        background-color: #1d1e22bd;
+        color: var(--color-surface-white);
+        padding: 2px 4px;
+        border-radius: 5px;
+    }
+    .panel li {
+        margin: 0;
+    }
+
+    pre.prettyprint {
+        max-width: 100%;
+        overflow: auto;
+    }
+
+    ul pre.prettyprint {
+        margin-left: -0.5rem;
+    }
 }
 
 .berita {
+    z-index: 2;
+    padding: 0;
+    &.z3 {
+        z-index: 3;
+    }
 }
