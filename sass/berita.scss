@@ -88,6 +88,9 @@
             margin: 36px auto;
             padding: 8px 32px;
             transform: rotate(-6deg);
+            @media screen and (max-width: 768px) {
+                display: none;
+            }
             .text {
                 text-align: center;
                 font-size: 1.3rem;
