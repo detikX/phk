@@ -144,14 +144,7 @@ section {
     // background: #b9e7f2;
     // background: linear-gradient(to bottom, #003a70, #b9e7f2);
     position: relative;
-    &::before {
-        content: "";
-        position: fixed;
-        background: url("../img/batik.png");
-        background-attachment: fixed;
-        background-size: contain;
-        background-repeat: repeat;
-    }
+
     h3 {
         // color: $colorred;
         font-family: "Outfit", sans-serif;

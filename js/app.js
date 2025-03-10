@@ -36,6 +36,10 @@ gsap.timeline({
     .from(".text2", {
         x: innerWidth * -1
     })
+    .from(".angkax", {
+        y: innerHeight * 1,
+        rotate: 360
+    })
 
 
 
