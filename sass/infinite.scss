@@ -5,6 +5,10 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    position: absolute;
+    @media screen and (max-width: 768px) {
+        top: -20%;
+    }
 }
 
 .tag-list {
@@ -48,7 +52,7 @@
 
     span {
         font-size: 1.2rem;
-        display: none;
+        // display: none;
         color: #64748b;
     }
 }
