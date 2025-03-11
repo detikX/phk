@@ -384,7 +384,7 @@
         position: absolute;
         bottom: 0;
         left: 50%;
-        // transform: rotate(-6deg);
+        // transform: rotate(-3deg);
         @media screen and (max-width: 768px) {
             // display: none;
             left: 35%;
@@ -417,4 +417,12 @@
 
 .gedungx {
     background: linear-gradient(to bottom, #49585e, #2f4046);
+
+    .wrap-data {
+        width: 80%;
+        margin: 0 auto;
+        @media screen and (max-width: 768px) {
+            width: 90%;
+        }
+    }
 }
