@@ -232,6 +232,22 @@
             border: 6px solid #a5bac2;
         }
     }
+
+    .daftar {
+        margin-bottom: 32px;
+        display: block;
+        .name {
+            background: rgba(#e6e6e6, 0.8);
+            padding: 8px 16px;
+            border-radius: 24px;
+            display: inline-block;
+            margin: 4px 0;
+            // font-size: 1.2rem;
+            font-family: "Source Code Pro";
+            font-weight: 600;
+            color: $colorred;
+        }
+    }
     .logo {
         width: 240px;
         height: auto;
