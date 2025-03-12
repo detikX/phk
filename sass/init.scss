@@ -628,3 +628,22 @@ section {
         opacity: 0;
     }
 }
+
+.creditx {
+    min-height: auto;
+    border-top: 1px dashed #ccc;
+    .alls {
+        width: 75%;
+        font-size: 1.2rem;
+        margin: 0 auto;
+        text-align: center;
+        color: white;
+        margin-bottom: 16px;
+        @media screen and (max-width: 768px) {
+            width: 100%;
+        }
+        .jobs {
+            font-weight: 600;
+        }
+    }
+}
