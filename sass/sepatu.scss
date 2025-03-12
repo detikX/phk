@@ -69,4 +69,24 @@
             }
         }
     }
+
+    .contenx {
+        display: inline-block;
+        width: 90%;
+        vertical-align: top;
+    }
+    .linex {
+        width: 4px;
+        vertical-align: top;
+        height: 200px;
+        display: inline-block;
+        background: #ccc;
+        margin-right: 32px;
+        margin-top: 8px;
+        border-radius: 16px;
+        @media screen and (max-width: 768px) {
+            height: 85px;
+            margin-right: 20px;
+        }
+    }
 }
