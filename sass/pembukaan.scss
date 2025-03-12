@@ -1,5 +1,6 @@
 .pembukaan {
-    padding: 32px 0 0;
+    padding: 32px 0;
+    min-height: auto;
     @media screen and (max-width: 768px) {
         min-height: auto;
         padding: 32px 0;
@@ -19,11 +20,11 @@
     .title {
         // color: #fc659e;
         color: #1e9dca;
-        font-size: 5rem;
-        line-height: 5.3rem;
+        font-size: 4rem;
+        line-height: 4.3rem;
         // font-family: "Libre Baskerville", serif;
         font-family: "jost", sans-serif;
-        padding-top: 60px;
+        // padding-top: 60px;
         // padding-bottom: 40px;
         // width: 90%;
         background-color: transparent;
