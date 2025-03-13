@@ -217,6 +217,12 @@
         @media screen and (max-width: 768px) {
             width: 100%;
         }
+        ul {
+            li {
+                color: #e6e6e6;
+                margin-bottom: 8px;
+            }
+        }
         .block-left {
             width: 3px;
             height: 60px;
