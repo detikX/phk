@@ -7,6 +7,11 @@ Highcharts.chart('container-yamaha', {
     title: {
         text: 'Data Keuangan Beberapa Tahun Terakhir',
         align: 'left',
+        style: {
+            color: "#2f4046",
+            font: 'bold 18px "Source Code Pro", sans-serif',
+            // lineHeight: '2rem'
+        }
     },
 
     subtitle: {
@@ -49,7 +54,11 @@ Highcharts.chart('container-yamaha', {
     legend: {
         layout: 'vertical',
         align: 'right',
-        verticalAlign: 'middle'
+        verticalAlign: 'middle',
+        itemStyle: {
+            font: 'normal .9rem Source Code Pro',
+            color: '#2f4046'
+        },
     },
 
     plotOptions: {
